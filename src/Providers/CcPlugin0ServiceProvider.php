@@ -1,9 +1,9 @@
 <?php
-namespace CcPlugin0\Providers;
+namespace CcPlugin\Providers;
 
 use Plenty\Plugin\ServiceProvider;
 
-class CcPlugin0ServiceProvider extends ServiceProvider
+class CcPluginServiceProvider extends ServiceProvider
 {
 
     /**
@@ -12,6 +12,6 @@ class CcPlugin0ServiceProvider extends ServiceProvider
 
     public function register()
     {
-        $this->getApplication()->register(CcPlugin0RouteServiceProvider::class);
+        $this->getApplication()->register(CcPluginRouteServiceProvider::class);
     }
 }

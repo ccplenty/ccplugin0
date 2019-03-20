@@ -1,6 +1,6 @@
 <?php
 
-namespace CcPlugin0\Controllers;
+namespace CcPlugin\Controllers;
 
 
 use Plenty\Plugin\Controller;
@@ -10,6 +10,6 @@ class ContentController extends Controller
 {
     public function sayHello(Twig $twig):string
     {
-        return $twig->render('CcPlugin0::content.hello');
+        return $twig->render('CcPlugin::content.hello');
     }
 }
