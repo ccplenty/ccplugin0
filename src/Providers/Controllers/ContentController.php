@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: plenty
- * Date: 2019-03-14
- * Time: 13:51
- */
 
 namespace CcPlugin0\Controllers;
 

@@ -1,7 +1,7 @@
 {
   "name"              :"CcPlugin0",
   "description"       :"CristiC-WelcomeOnPlenty Plugin",
-  "namespace"         :"ccplugin0",
+  "namespace"         :"CcPlugin0",
   "author"            :"Cristi C",
   "type"              :"template",
   "serviceProvider"   :"CcPlugin0\\Providers\\CcPlugin0ServiceProvider"
